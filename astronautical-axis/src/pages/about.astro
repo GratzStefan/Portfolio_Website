@@ -5,6 +5,7 @@ import { aboutPageContent } from "../config";
 import ResumeItem from "../components/ResumeItem.astro";
 import { Markdown } from "@astropub/md";
 import SocialLinkBox from "../components/SocialLinkBox.astro";
+import ResumItemEducation from "../components/ResumItemEducation.astro";
 ---
 
 <Layout seo={aboutPageContent.seo}>
@@ -32,13 +33,24 @@ import SocialLinkBox from "../components/SocialLinkBox.astro";
     </div>
   </section>
   <section class="my-20 mt-32 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
-    <h2 class="mb-8 sm:mb-0 opacity-60">Work</h2>
+    <h2 class="mb-8 sm:mb-0 opacity-60">Experiences</h2>
     <div>
       <div class="mb-6">
-        <Markdown of={aboutPageContent.work.description} />
+        <Markdown of={aboutPageContent.experiences.description} />
       </div>
       <div class="grid grid-cols-1 group">
-        {aboutPageContent.work.items.map((item) => <ResumeItem {...item} />)}
+        {aboutPageContent.experiences.items.map((item) => <ResumeItem {...item} />)}
+      </div>
+    </div>
+  </section>
+  <section class="my-20 mt-32 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
+    <h2 class="mb-8 sm:mb-0 opacity-60">Education</h2>
+    <div>
+      <div class="mb-6">
+        <Markdown of={aboutPageContent.education.description} />
+      </div>
+      <div class="grid grid-cols-1 group">
+        {aboutPageContent.education.items.map((item) => <ResumItemEducation {...item} />)}
       </div>
     </div>
   </section>
@@ -46,7 +58,7 @@ import SocialLinkBox from "../components/SocialLinkBox.astro";
     <h2 class="mb-8 sm:mb-0 opacity-60">Connect</h2>
     <div>
       <div class="mb-6">
-        <Markdown of={aboutPageContent.work.description} />
+        <Markdown of={aboutPageContent.about.description} />
       </div>
       <div class="grid grid-cols-2 gap-2 group">
         {

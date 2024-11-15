@@ -35,6 +35,11 @@ export type HomePageContent = {
   }[];
 };
 
+export type ResumeItemEducation = {
+  title: string;
+  date: string;
+}
+
 export type ResumeItem = {
   title: string;
   company: {
@@ -59,9 +64,13 @@ export type AboutPageContent = {
       alt: string;
     };
   };
-  work: {
+  experiences: {
     description: string;
     items: ResumeItem[];
+  };
+  education: {
+    description: string;
+    items: ResumeItemEducation[];
   };
   connect: {
     description: string;

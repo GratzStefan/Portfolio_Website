@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets";
+import type { ResumeItem, ResumeItemEducation } from "../types/config";
+
+type Props = ResumeItemEducation;
+
+const { title, date } = Astro.props;
+---
+
+<a
+  href={title}
+  class="py-3 flex items-center justify-between group-hover:opacity-60 hover:!opacity-100 transition-opacity"
+>
+  <div class="flex items-center gap-4">
+
+    <div>
+      <h3 class="font-medium">{title}</h3>
+    </div>
+  </div>
+  <p class="text-sm opacity-60">{date}</p>
+</a>
