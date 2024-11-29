@@ -134,62 +134,62 @@ When I’m not coding, you can usually find me exploring new ideas, collaboratin
       {
         name: 'HTML',
         experiencelevel: 'Intermediate',
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg'
+        image: '/html.svg'
       },
       {
         name: 'CSS',
         experiencelevel: 'Intermediate',
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg'
+        image: '/css.svg'
       },
       {
         name: 'JavaScript',
         experiencelevel: 'Intermediate',
-        image: 'https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png'
+        image: '/javascript.webp'
       },
       {
         name: 'Angular',
         experiencelevel: 'Intermediate',
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg'
+        image: '/angular.svg'
       },
       {
         name: 'Java',
         experiencelevel: 'Expert',
-        image: 'https://upload.wikimedia.org/wikipedia/de/thumb/e/e1/Java-Logo.svg/1200px-Java-Logo.svg.png'
+        image: '/java.png'
       },
       {
         name: 'Spring Boot',
         experiencelevel: 'Intermediate',
-        image: 'https://img.icons8.com/?size=512&id=90519&format=png'
+        image: '/spring.png'
       },
       {
         name: 'C#',
         experiencelevel: 'Expert',
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg'
+        image: '/csharp.svg'
       },
       {
         name: 'C',
         experiencelevel: 'Intermediate',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg'
+        image: '/c.svg'
       },
       {
         name: 'MySQL',
         experiencelevel: 'Intermediate',
-        image: 'https://upload.wikimedia.org/wikipedia/de/d/dd/MySQL_logo.svg'
+        image: '/mysql.svg'
       },
       {
         name: 'PostgreSQL',
         experiencelevel: 'Intermediate',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png'
+        image: '/postgresql.png'
       },
       {
         name: 'MongoDB',
         experiencelevel: 'Intermediate',
-        image: 'https://cdn.iconscout.com/icon/free/png-512/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp&w=256'
+        image: '/mongodb.webp'
       },
       {
         name: 'Git',
         experiencelevel: 'Intermediate',
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg'
+        image: '/git.svg'
       },
     ],
   },
