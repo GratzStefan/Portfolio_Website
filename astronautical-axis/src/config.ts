@@ -27,10 +27,6 @@ export const navBarLinks: NavBarLink[] = [
     title: "Projects",
     url: "/projects",
   },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -88,12 +84,12 @@ As a student, I’m constantly learning and growing, both in my academic pursuit
 <br/><br/>
 When I’m not coding, you can usually find me exploring new ideas, collaborating with others, or diving deep into the latest tech trends.`, // Markdown is supported
     image_l: {
-      url: "/demo-1.jpg",
-      alt: "Left Picture",
+      url: "/coding.webp",
+      alt: "Coding Workspace",
     },
     image_r: {
-      url: "/demo-1.jpg",
-      alt: "Right Picture",
+      url: "/group.jpg",
+      alt: "Brainstorming",
     },
   },
   experiences: {
@@ -129,6 +125,71 @@ When I’m not coding, you can usually find me exploring new ideas, collaboratin
       {
         title: "Gymnasium St. Johann im Pongau",
         date: "2016 - 2020",
+      },
+    ],
+  },
+  skills: {
+    description: "This section of my portfolio highlights my expertise and value across key areas—technical, creative, and communicative skills. With clear visuals and concise descriptions, it demonstrates how I can contribute effectively and make an impact from day one.",
+    items: [
+      {
+        name: 'HTML',
+        experiencelevel: 'Intermediate',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg'
+      },
+      {
+        name: 'CSS',
+        experiencelevel: 'Intermediate',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg'
+      },
+      {
+        name: 'JavaScript',
+        experiencelevel: 'Intermediate',
+        image: 'https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png'
+      },
+      {
+        name: 'Angular',
+        experiencelevel: 'Intermediate',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg'
+      },
+      {
+        name: 'Java',
+        experiencelevel: 'Expert',
+        image: 'https://upload.wikimedia.org/wikipedia/de/thumb/e/e1/Java-Logo.svg/1200px-Java-Logo.svg.png'
+      },
+      {
+        name: 'Spring Boot',
+        experiencelevel: 'Intermediate',
+        image: 'https://img.icons8.com/?size=512&id=90519&format=png'
+      },
+      {
+        name: 'C#',
+        experiencelevel: 'Expert',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg'
+      },
+      {
+        name: 'C',
+        experiencelevel: 'Intermediate',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg'
+      },
+      {
+        name: 'MySQL',
+        experiencelevel: 'Intermediate',
+        image: 'https://upload.wikimedia.org/wikipedia/de/d/dd/MySQL_logo.svg'
+      },
+      {
+        name: 'PostgreSQL',
+        experiencelevel: 'Intermediate',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png'
+      },
+      {
+        name: 'MongoDB',
+        experiencelevel: 'Intermediate',
+        image: 'https://cdn.iconscout.com/icon/free/png-512/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp&w=256'
+      },
+      {
+        name: 'Git',
+        experiencelevel: 'Intermediate',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg'
       },
     ],
   },

@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets";
+import type { ResumeItem, ResumeItemSkills } from "../types/config";
+
+type Props = ResumeItemSkills;
+
+const { name, experiencelevel, image } = Astro.props;
+---
+
+<div class="d-flex justify-items-center">
+    <Image
+        src={image}
+        alt="Skill"
+        width={75}
+        height={75}
+        class="w-[75px] h-[75px] object-contain overflow-hidden"
+    />
+    
+    <h1 class="py-1 opacity-85">{name}</h1>
+    <h3 class="py-1 opacity-70">{experiencelevel}</h3>
+</div>

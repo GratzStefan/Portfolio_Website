@@ -50,6 +50,12 @@ export type ResumeItem = {
   date: string;
 };
 
+export type ResumeItemSkills = {
+  name: string;
+  experiencelevel: string;
+  image: string;
+};
+
 export type AboutPageContent = {
   seo: SEOInfo;
   subtitle: string;
@@ -71,6 +77,10 @@ export type AboutPageContent = {
   education: {
     description: string;
     items: ResumeItemEducation[];
+  };
+  skills: {
+    description: string;
+    items: ResumeItemSkills[];
   };
   connect: {
     description: string;
